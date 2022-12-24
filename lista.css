@@ -1,0 +1,61 @@
+* {
+    margin:0
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color:blueviolet;
+    color: white;
+    text-align: center;
+    padding: 1%;
+
+}
+main {
+    padding: 30px 50px;
+}
+.card {
+    background-color:white;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    margin-top: 15px;
+}
+input {
+    display: grid;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+
+}
+button {
+    padding: 10px;
+    border: 0px;
+    outline: 0;
+    background-color: blueviolet;
+    color:white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(100, 30, 165);
+}
+.content {
+    margin-top: 15px
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+table th {
+    background-color: rgb(224, 224, 224)
+}
+table th, td {
+    padding: 1px 5px;
+    text-align: center;
+}
+table td img {
+    width: 22px;
+}
